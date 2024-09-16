@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta viewport="width-device-width" content="initial-scale = 1">
+    <title>New Game | 🧬 Biology Quizer</title>
+</head>
+<body style="background: linear-gradient(135deg, #2bff6e, #30ddff); background-attachment: fixed; background-repeat: no-repeat;"; >
+    <div style="margin: 20px;">
+        <h1 style="font-family: Arial, Helvetica, sans-serif; color: #003487;">New Game</h1>
+        <p style="font-family: Arial, Helvetica, sans-serif; color: #003487; font-size: 28px;">
+            Select one answer choice. Good luck!
+        </p>
+        <p style="font-family: Arial, Helvetica, sans-serif; color: #003487; font-size: 28px;" id="questionDisplayed">
+            Null
+        </p>
+    </div>
+    <script src="index.js"></script>
+    <form id="ansField">
+        <input type="text" style="margin: 20px; height: 80px; width: 200px; background-color: #30ddff; font-size: 28px; font-family: Arial, Helvetica, sans-serif;" id="ansChoice" name="ansChoice_">
+        <input type="submit" value="Submit Answer">
+    </form>
+    <p style="font-family: Arial, Helvetica, sans-serif; color: #003487; font-size: 28px; margin: 20px;" id="score">
+        Questions Correct: 0/68
+    </p>
+
+    <a href="game.html" style="color: #fcf403; font-size: 28px; font-family: Arial, Helvetica, sans-serif; margin: 20px;">Open A New Game</a>
+</body>
